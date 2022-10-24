@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="no">
+  <head>
+    <title>Plagiatagram</title>
+    <meta charset="UTF-8" />
+    <style>
+      body {
+        font-family: sans-serif;
+        margin: 0 auto;
+        width: 400px;
+      }
+
+      .post {
+        margin: 3rem 0;
+      }
+
+      .bilde::before {
+        content: "";
+      }
+
+      .bilde {
+        width: 400px;
+        height: 400px;
+        margin: 1rem 0;
+      }
+
+      .forfatter {
+
+        font-weight: bold;
+      }
+
+      .forfatter::before {
+        content: "@";
+      }
+
+      .emneknagg {
+        display: inline-block;
+        padding: 0 0.5rem;
+        font-weight: bold;
+        background-color: lightblue;
+        border-radius: 100px;
+      }
+
+      .forfatterlinje {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+      }
+
+      .profilbilde {
+        width: 2rem;
+        height: 2rem;
+        border-radius: 100px;
+      }
+
+      .profilbilde:before {
+        content: "";
+      }
+
+      .emneknagg::before {
+        content: "#";
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Friluftsliv</h1>
+    </header>
+    <main>
+      <div class="post">
+        <div class="forfatterlinje">
+          <div class="profilbilde" style="background-color: rgb(0, 0, 0)"></div>
+          <div class="forfatter">Friluftsliv</div>
+        </div>
+        <img src="friluftsliv_2.jpg" alt="Utsikt" width="450" height="500">
+        <div>
+          <span class="forfatter">Friluftsliv</span> Jeg har vært på
+          tur og tatt noen fine bilder.
+          <span class="emneknagg">Natur</span>
+          <span class="emneknagg">Norge</span>
+
+        </div>
+      </div>
+      <div class="post">
+        <div class="forfatterlinje">
+          <div class="profilbilde" style="background-color: rgb(0, 0, 0)"></div>
+          <div class="forfatter">Friluftsliv</div>
+        </div>
+        <img src="friluftsliv_1.jpg" alt="Utsikt" width="450" height="500">
+        <div>
+          <span class="forfatter">Friluftsliv</span> Jeg titter på en
+          fin utsikt. Norge er vakkert.
+          <span class="emneknagg">Fin utsikt</span>
+        </div>
+      </div>
+
+      <div class="post">
+        <div class="forfatterlinje">
+          <div class="profilbilde" style="background-color: rgb(0, 0, 0)"></div>
+          <div class="forfatter">Friluftsliv</div>
+        </div>
+        <img src="friluftsliv_3.jpg" alt="Utsikt" width="450" height="500">
+        <div>
+          <span class="forfatter">Friluftsliv</span> Veldig fin foss!
+          <span class="emneknagg">Natur</span>
+          <span class="emneknagg">Utpåturaldrisur</span>
+        </div>
+      </div>
+
+      <div class="post">
+        <div class="forfatterlinje">
+          <div class="profilbilde" style="background-color: rgb(0, 0, 0)"></div>
+          <div class="forfatter">Friluftsliv</div>
+        </div>
+        <img src="friluftsliv_4.jpg" alt="Utsikt" width="450" height="500">
+        <div>
+          <span class="forfatter">Friluftsliv</span> Det er nordlys i kveld!
+          <span class="emneknagg">Svalbar</span>
+          <span class="emneknagg">Nordlys</span>
+        </div>
+      </div>
+
+      <div class="post">
+        <div class="forfatterlinje">
+          <div class="profilbilde" style="background-color: rgb(0, 0, 0)"></div>
+          <div class="forfatter">Friluftsliv</div>
+        </div>
+        <img src="friluftsliv_5.jpg" alt="Utsikt" width="450" height="500">
+        <div>
+          <span class="forfatter">Friluftsliv</span> I dag er det
+          fint vær. Se på den fine hatten min!
+        </div>
+      </div>
+
+      <div class="post">
+        <div class="forfatterlinje">
+          <div class="profilbilde" style="background-color: rgb(0, 0, 0)"></div>
+          <div class="forfatter">Friluftsliv</div>
+        </div>
+        <img src="friluftsliv_6.jpg" alt="Utsikt" width="450" height="500">
+        <div>
+          <span class="forfatter">Friluftsliv</span> Litt snø i dag,
+          tok meg en gå tur langs fjelet.
+          <span class="emneknagg">Snø</span>
+          <span class="emneknagg">Fjell</span>
+          <span class="emneknagg">Selfie</span>
+        </div>
+      </div>
+
+      <div class="post">
+        <div class="forfatterlinje">
+          <div class="profilbilde" style="background-color: rgb(0, 0, 0)"></div>
+          <div class="forfatter">Friluftsliv</div>
+        </div>
+        <img src="friluftsliv_7.jpg" alt="Utsikt" width="450" height="500">
+        <div>
+          <span class="forfatter">Friluftsliv</span> Meg og kompisen min
+          har fjellklatret i dag!
+          <span class="emneknagg">Fjellklatring</span>
+        </div>
+      </div>
+
+      <div class="post">
+        <div class="forfatterlinje">
+          <div class="profilbilde" style="background-color: rgb(0, 0, 0)"></div>
+          <div class="forfatter">Friluftsliv</div>
+        </div>
+        <img src="friluftsliv_8.jpg" alt="Utsikt" width="450" height="500">
+        <div>
+          <span class="forfatter">Friluftsliv</span> Nydelig solnedgang.
+          <span class="emneknagg">Vakkert</span>
+          <span class="emneknagg">HalloNorge</span>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
